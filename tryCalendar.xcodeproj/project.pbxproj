@@ -13,6 +13,15 @@
 		FAAF12EF29FD3E7500DC3EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAF12ED29FD3E7500DC3EF5 /* Main.storyboard */; };
 		FAAF12F129FD3E7900DC3EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAF12F029FD3E7900DC3EF5 /* Assets.xcassets */; };
 		FAAF12F429FD3E7900DC3EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAF12F229FD3E7900DC3EF5 /* LaunchScreen.storyboard */; };
+		FAAF12FD29FD3EA900DC3EF5 /* Parchment in Frameworks */ = {isa = PBXBuildFile; productRef = FAAF12FC29FD3EA900DC3EF5 /* Parchment */; };
+		FAAF130029FD3ECC00DC3EF5 /* KDCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = FAAF12FF29FD3ECC00DC3EF5 /* KDCalendar */; };
+		FAAF130429FD3F2400DC3EF5 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF130229FD3F1D00DC3EF5 /* MeViewController.swift */; };
+		FAAF130529FD3F2700DC3EF5 /* DynamicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF130329FD3F1D00DC3EF5 /* DynamicCollectionView.swift */; };
+		FAAF130829FD3FFD00DC3EF5 /* OrgCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAF130629FD3FFC00DC3EF5 /* OrgCollectionViewCell.xib */; };
+		FAAF130929FD3FFD00DC3EF5 /* OrgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF130729FD3FFD00DC3EF5 /* OrgCollectionViewCell.swift */; };
+		FAAF130E29FD42BC00DC3EF5 /* EarlyRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF130C29FD406600DC3EF5 /* EarlyRequestViewController.swift */; };
+		FAAF130F29FD42C200DC3EF5 /* EarlyRequestFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF130B29FD406600DC3EF5 /* EarlyRequestFormViewController.swift */; };
+		FAAF131029FD42C500DC3EF5 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAF130D29FD406600DC3EF5 /* RequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,13 @@
 		FAAF12F029FD3E7900DC3EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAAF12F329FD3E7900DC3EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAAF12F529FD3E7900DC3EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAF130229FD3F1D00DC3EF5 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		FAAF130329FD3F1D00DC3EF5 /* DynamicCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionView.swift; sourceTree = "<group>"; };
+		FAAF130629FD3FFC00DC3EF5 /* OrgCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrgCollectionViewCell.xib; sourceTree = "<group>"; };
+		FAAF130729FD3FFD00DC3EF5 /* OrgCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrgCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAAF130B29FD406600DC3EF5 /* EarlyRequestFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyRequestFormViewController.swift; sourceTree = "<group>"; };
+		FAAF130C29FD406600DC3EF5 /* EarlyRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyRequestViewController.swift; sourceTree = "<group>"; };
+		FAAF130D29FD406600DC3EF5 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAF12FD29FD3EA900DC3EF5 /* Parchment in Frameworks */,
+				FAAF130029FD3ECC00DC3EF5 /* KDCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				FAAF12E629FD3E7500DC3EF5 /* tryCalendar */,
+				FAAF130A29FD406600DC3EF5 /* EarlyRequest */,
 				FAAF12E529FD3E7500DC3EF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,8 +82,30 @@
 				FAAF12F029FD3E7900DC3EF5 /* Assets.xcassets */,
 				FAAF12F229FD3E7900DC3EF5 /* LaunchScreen.storyboard */,
 				FAAF12F529FD3E7900DC3EF5 /* Info.plist */,
+				FAAF130729FD3FFD00DC3EF5 /* OrgCollectionViewCell.swift */,
+				FAAF130629FD3FFC00DC3EF5 /* OrgCollectionViewCell.xib */,
+				FAAF130129FD3F1D00DC3EF5 /* Me */,
 			);
 			path = tryCalendar;
+			sourceTree = "<group>";
+		};
+		FAAF130129FD3F1D00DC3EF5 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				FAAF130229FD3F1D00DC3EF5 /* MeViewController.swift */,
+				FAAF130329FD3F1D00DC3EF5 /* DynamicCollectionView.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		FAAF130A29FD406600DC3EF5 /* EarlyRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FAAF130B29FD406600DC3EF5 /* EarlyRequestFormViewController.swift */,
+				FAAF130C29FD406600DC3EF5 /* EarlyRequestViewController.swift */,
+				FAAF130D29FD406600DC3EF5 /* RequestViewController.swift */,
+			);
+			path = EarlyRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +124,10 @@
 			dependencies = (
 			);
 			name = tryCalendar;
+			packageProductDependencies = (
+				FAAF12FC29FD3EA900DC3EF5 /* Parchment */,
+				FAAF12FF29FD3ECC00DC3EF5 /* KDCalendar */,
+			);
 			productName = tryCalendar;
 			productReference = FAAF12E429FD3E7500DC3EF5 /* tryCalendar.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +156,10 @@
 				Base,
 			);
 			mainGroup = FAAF12DB29FD3E7500DC3EF5;
+			packageReferences = (
+				FAAF12FB29FD3EA900DC3EF5 /* XCRemoteSwiftPackageReference "Parchment" */,
+				FAAF12FE29FD3ECC00DC3EF5 /* XCRemoteSwiftPackageReference "CalendarView" */,
+			);
 			productRefGroup = FAAF12E529FD3E7500DC3EF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAF12F429FD3E7900DC3EF5 /* LaunchScreen.storyboard in Resources */,
+				FAAF130829FD3FFD00DC3EF5 /* OrgCollectionViewCell.xib in Resources */,
 				FAAF12F129FD3E7900DC3EF5 /* Assets.xcassets in Resources */,
 				FAAF12EF29FD3E7500DC3EF5 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAF130F29FD42C200DC3EF5 /* EarlyRequestFormViewController.swift in Sources */,
 				FAAF12EC29FD3E7500DC3EF5 /* ViewController.swift in Sources */,
+				FAAF130929FD3FFD00DC3EF5 /* OrgCollectionViewCell.swift in Sources */,
 				FAAF12E829FD3E7500DC3EF5 /* AppDelegate.swift in Sources */,
+				FAAF130529FD3F2700DC3EF5 /* DynamicCollectionView.swift in Sources */,
+				FAAF131029FD42C500DC3EF5 /* RequestViewController.swift in Sources */,
+				FAAF130429FD3F2400DC3EF5 /* MeViewController.swift in Sources */,
 				FAAF12EA29FD3E7500DC3EF5 /* SceneDelegate.swift in Sources */,
+				FAAF130E29FD42BC00DC3EF5 /* EarlyRequestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +412,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAAF12FB29FD3EA900DC3EF5 /* XCRemoteSwiftPackageReference "Parchment" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rechsteiner/Parchment";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		FAAF12FE29FD3ECC00DC3EF5 /* XCRemoteSwiftPackageReference "CalendarView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mmick66/CalendarView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAAF12FC29FD3EA900DC3EF5 /* Parchment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAAF12FB29FD3EA900DC3EF5 /* XCRemoteSwiftPackageReference "Parchment" */;
+			productName = Parchment;
+		};
+		FAAF12FF29FD3ECC00DC3EF5 /* KDCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAAF12FE29FD3ECC00DC3EF5 /* XCRemoteSwiftPackageReference "CalendarView" */;
+			productName = KDCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAAF12DC29FD3E7500DC3EF5 /* Project object */;
 }
